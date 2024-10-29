@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    background-color: rgb(244,208,78);
+}
+.container{
+    height: 530px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px  0px black;
+    border: 1px solid black;
+    padding: 25px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:15px;
+}
+.infos{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+*{
+    font-family: 'Figtree';
+    margin: 0;
+    padding: 0;
+}
+.p1{
+    background-color: rgb(244,208,78);
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main-para{
+    font-size: 20px;
+    color: gray;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.author p{
+    font-weight: bold;
+}
+.main-title:hover{
+    color:rgb(244,208,78);
+    cursor:pointer;
+}
+.main-title{
+    text-decoration: none;
+    color: black;
+}
